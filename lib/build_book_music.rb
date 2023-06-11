@@ -1,5 +1,5 @@
 class BuildBookMusic
-  def self.hi
-    puts "Hello, world!"
+  def self.call(args)
+    puts "Hi! #{args.to_s}"
   end
 end

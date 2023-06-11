@@ -1,6 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = "build_book_music"
   s.version     = "0.1.0"
+  s.executables << "build_book_music"
   s.summary     = "Specialized JSON file editor."
   s.description = "Extracts JSON information about a music file from one file, loads changes from a 2nd file, then exports a third file."
   s.authors     = ["John Maddux"]

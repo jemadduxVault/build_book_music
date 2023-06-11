@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'build_book_music'
+puts BuildBookMusic.call(ARGV)
